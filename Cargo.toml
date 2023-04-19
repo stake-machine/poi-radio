@@ -57,3 +57,7 @@ tracing-opentelemetry = "0.18.0"
 version = "1"
 default-features = false # Disable features which are enabled by default
 features = ["precommit-hook", "run-cargo-fmt", "run-cargo-clippy"]
+
+[profile.dev]
+debug = true
+debuginfo = 2
